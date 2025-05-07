@@ -14,7 +14,7 @@ A simple locally run webpage built with FastAPI/ReactJS backend/frontend to mana
    └── frontend/
        ├── public/
        │   ├── index.html
-       │   └── favicon.ico
+       │   └── favicon.ico (optional)
        ├── src/
        │   ├── App.js
        │   ├── App.css
