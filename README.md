@@ -32,6 +32,12 @@ A simple locally run webpage built with FastAPI/ReactJS backend/frontend to mana
 - FastAPI: asynchronous and fast execution
 - ReactJS: server-side rendering allows React components to be rendered on the server and sent to the browser as fully rendered HTML
 
+## Prerequisites
+- Python 3.8+
+- Node.js 18+ and npm
+- Ollama installed (https://ollama.com/)
+- Git
+
 ## Setup
 1. Clone the repository:
    ```bash
