@@ -61,6 +61,7 @@ A simple locally run webpage built with FastAPI/ReactJS backend/frontend to mana
    uvicorn main:app --reload --port 8000
 7. Install frontend dependencies:
    ```bash
+   cd ..
    cd frontend
    npm install
 8. Start the React development server:
