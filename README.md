@@ -1,6 +1,6 @@
-# Task Manager FastAPI-React Demo
+# Find Bible Scripture
 
-A simple REST API built with FastAPI backend to manage tasks. This project demonstrates integration with ReactJS frontend.
+A simple locally run webpage built with FastAPI/ReactJS backend/frontend to manage scriptures.
 
 ## Directory
 
@@ -27,8 +27,8 @@ A simple REST API built with FastAPI backend to manage tasks. This project demon
    ```
 
 ## Features
-- CRUD operations for tasks (Create, Read, Update, Delete)
-- In-memory data store
+- LLM integration
+- Database can be created t save the record
 - FastAPI: asynchronous and fast execution
 - ReactJS: server-side rendering allows React components to be rendered on the server and sent to the browser as fully rendered HTML
 
