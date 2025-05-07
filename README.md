@@ -59,9 +59,9 @@ A simple locally run webpage built with FastAPI/ReactJS backend/frontend to mana
    ```bash
    cd backend
    uvicorn main:app --reload --port 8000
-7. Install frontend dependencies:
+7. Open another terminal to install frontend dependencies:
    ```bash
-   cd ..
+   cd bible-scripture-llm
    cd frontend
    npm install
 8. Start the React development server:
