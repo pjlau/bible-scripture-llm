@@ -28,7 +28,7 @@ A simple locally run webpage built with FastAPI/ReactJS backend/frontend to mana
 
 ## Features
 - LLM integration
-- Database can be created t save the record
+- Database can be created to save the record
 - FastAPI: asynchronous and fast execution
 - ReactJS: server-side rendering allows React components to be rendered on the server and sent to the browser as fully rendered HTML
 
