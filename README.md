@@ -21,6 +21,7 @@ A simple REST API built with FastAPI backend to manage tasks. This project demon
        │   ├── components/
        │   │   ├── TaskForm.js
        │   │   └── TaskList.js
+       │   ├── index.css
        │   └── index.js
        └── package.json
    ```
