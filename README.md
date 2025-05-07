@@ -46,31 +46,27 @@ A simple locally run webpage built with FastAPI/ReactJS backend/frontend to mana
 2. Install backend dependencies:
    ```bash
    pip install fastapi uvicorn pydantic
-3. Run the Web App:
+3. Ensure the Ollama is installed:
+   ```bash
+   ollama --version
+4. Pull a free LLM model (e.g. `phi3` for efficiency):
+   ```bash
+   ollama pull phi3
+5. Serve the LLM model (e.g. `phi3` for efficiency):
+   ```bash
+   ollama serve
+6. Run the Web App:
    ```bash
    cd backend
    uvicorn main:app --reload --port 8000
-4. Install frontend dependencies:
+7. Install frontend dependencies:
    ```bash
    cd frontend
    npm install
-5. Start the React development server:
+8. Start the React development server:
    ```bash
    npm start
-6. Access the web app at `http://localhost:3000/`.
-
-## Functionality
-The app provides the CRUD operations:
-
-- GET /tasks: List all tasks.
-
-- GET /tasks/{id}: Retrieve a specific task.
-
-- POST /tasks: Create a new task with title and optional description.
-
-- PUT /tasks/{id}: Update a task’s title, description, or done status.
-
-- DELETE /tasks/{id}: Delete a task.
+9. Access the web app at `http://localhost:3000/`.
 
 ## Results
 
